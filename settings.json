@@ -1,4 +1,5 @@
 {
+  "vim.disableExtension": true,
   "isort.args": [
     "--profile",
     "black"
