@@ -1,0 +1,84 @@
+{
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "quarto.mathjax.theme": "dark",
+
+  // "editor.tabCompletion": "onlySnippets",
+  // "editor.snippetSuggestions": "top",
+
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  // "editor.showFoldingControls": "always",
+  // "editor.folding": true,
+  // "editor.foldingStrategy": "indentation",
+
+  ////////////////////////////////////
+  // https://code.visualstudio.com/docs/editor/intellisense#_customizing-intellisense
+  // Controls if quick suggestions should show up while typing
+
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+
+  "editor.suggestOnTriggerCharacters": false,
+
+  "editor.acceptSuggestionOnCommitCharacter": false,
+
+  "editor.parameterHints.enabled": false,
+  ////////////////////////////////////
+
+	// Whether to lint Python files using mypy.
+	"python.linting.mypyEnabled": true,
+
+
+  "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+      },
+      "editor.formatOnType": true,
+      "editor.parameterHints.enabled": false,
+    },
+
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode",
+      "editor.formatOnSave": true,
+    },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+  },
+  "github.copilot.enable": {
+    "quarto": false,
+    "*": false
+  },
+  "editor.minimap.enabled": false,
+
+  "emojisense.languages": {
+    "javascript": true,
+    "typescript": true,
+    "markdown": true
+  }, 
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features",
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false
+  }
+
+
+
+}
