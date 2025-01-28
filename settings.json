@@ -37,7 +37,8 @@
   },
   "github.copilot.enable": {
     "quarto": false,
-    "*": false
+    "*": false,
+    "javascript": true
   },
   "editor.minimap.enabled": false,
   "emojisense.languages": {
