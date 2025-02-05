@@ -38,7 +38,7 @@
   "github.copilot.enable": {
     "quarto": false,
     "*": false,
-    "javascript": true
+    "javascript": false
   },
   "editor.minimap.enabled": false,
   "emojisense.languages": {
@@ -105,5 +105,17 @@
   },
   "extensions.experimental.affinity": {
     "vscodevim.vim": 1
-  }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never"
+  },
+  "eslint.validate": [
+    "javascript"
+  ],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
